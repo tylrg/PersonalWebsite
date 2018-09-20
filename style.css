@@ -11,7 +11,7 @@ h3{
 }
 h4{
     color:#f46464;
-    text-align: left;
+    text-align: center;
     font-size: 16pt;
 }
 h5{
@@ -21,6 +21,7 @@ h5{
 }
 p{color: white}
 body{
+    background-color: black;
     background-image: url("tester.png");
     background-size: cover;
     font-family: Futura,Helvetica;
@@ -49,4 +50,10 @@ a:hover{
 a:active{
     color: inherit;
     text-decoration: none;
+}
+div{
+    background: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    padding: 30px;
+    margin: 30px;
 }
