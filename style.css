@@ -20,9 +20,10 @@ h5{
     font-size: 16pt;
 }
 p{color: white}
+
 body{
     background-color: black;
-    background-image: url("tester.png");
+    background-image: url("background.jpg");
     background-size: cover;
     font-family: Futura,Helvetica;
 }
@@ -35,10 +36,12 @@ footer{
     text-align: center;
 
 }
+
 a:link{
     color: inherit;
     text-decoration: none;
 }
+/*Hover effects*/
 a:visited{
     color: inherit;
     text-decoration: none;
@@ -51,7 +54,9 @@ a:active{
     color: inherit;
     text-decoration: none;
 }
+
 div{
+    border-radius: 25px;
     background: rgba(255, 255, 255, 0.5);
     width: 50px;
     padding: 30px;
