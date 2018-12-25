@@ -2,12 +2,12 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    background-color: rgba(255, 255, 255, 0.36);
+    background-color: rgba(0, 174, 255, 0.12);
     padding: 10px;
 }
 
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.42);
+    background-color: rgba(207, 250, 255, 0.76);
     text-align: center;
     padding: 50px 5px;
     font-size: 30px;
@@ -17,12 +17,12 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    background-color: rgba(255, 255, 255, 0.36);
+    background-color: rgba(0, 174, 255, 0.12);
     padding: 10px;
 }
 
 .grid-container2 > div {
-    background-color: rgba(255, 255, 255, 0.42);
+    background-color: rgba(0, 174, 255, 0.12);
     text-align: center;
     font-size: 30px;
 }
@@ -41,7 +41,7 @@
     width: 82.5%;
     position: fixed;
     text-align: left;
-    background: rgba(56, 56, 56, 0.31);
+    background-color: rgba(0, 174, 255, 0.12);
 }
 
 h1 {
