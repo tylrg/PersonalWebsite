@@ -6,23 +6,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<img src="logo.png" alt="Logo" style=" float: right">
+<div id="navBar" class="header">
     <h1>Tyler Gabriel</h1>
+</div>
+<br>
+<!--Intro words and animation-->
+<h3 style="padding-top: 250px; padding-right: 30px"> Welcome </h3>
+<h3 style="animation-duration: 2s;animation-delay: 1s;animation-iteration-count: 3; padding-right: 30px">↓↓↓</h3>
 
-    <h3> Welcome </h3>
 
+<!--Bio and Photos-->
+<h4>About:</h4>
+<div class="grid-container2" style="column-gap: 100px; text-align: center">
+    <h2>Hi there! My name is Tyler Gabriel (left) and I am a Computer Science student at Binghamton University. I was
+        born and raised in Syracuse, New York. Some of my interests include software development, mobile development,
+        and cybersecurity.</h2>
+    <div>
+        <div class="w3-content w3-section" style="max-width:500px">
+            <img class="mySlides" src="iceland.JPG" style="width:100%" alt="Portrait">
+            <img class="mySlides" src="640px-Binghamton_University_Aerial_Photo.jpg" style="width:100%"
+                 alt="Binghamton University">
+            <img class="mySlides" src="640px-Syracusecountycourthouse3.jpeg" style="width:100%" alt="Syracuse">
+        </div>
+    </div>
+</div>
 
-    <h4>About:</h4>
-    <p>Hi there! My name is Tyler Gabriel and I am a Computer Science student at Binghamton University.</p>
+<!--Personal Contact Links-->
+<h4>Links:</h4>
+<div class="grid-container">
+    <div class="item3"><a href="https://www.linkedin.com/in/tyler-gabriel-753b2a14a/ " target="_blank"> LinkedIn</a>
+    </div>
+    <div class="item3"><a href="https://github.com/tylrg " target="_blank"> Github</a></div>
+    <div class="item3"><a href="https://binghamton.joinhandshake.com/users/6986522 " target="_blank"> Handshake</a>
+    </div>
+    <div class="item14"><a href="TylerJohnGabriel.pdf" target="_blank">Resume</a></div>
+    <div class="item3"><a href="https://open.spotify.com/user/tylrg" target="_blank">Spotify</a></div>
+    <div class="item15"><a href="mailto:tgabrie2@binghamton.edu">Contact</a></div>
+</div>
 
+<!--Workaround for padding issues lol-->
+<br> </br>
+<br> </br>
+<br> </br>
 
-    <div> <a href="https://www.linkedin.com/in/tyler-gabriel-753b2a14a/ " target="_blank"> LinkedIn</a></div>
-    <div> <a href="https://github.com/tylrg " target="_blank"> Github</a></div>
-    <div> <a href="https://binghamton.joinhandshake.com/users/6986522 " target="_blank"> Handshake</a></div>
-    <div> Resume </div>
-    <div> Contact </div>
+<!--Photo Slide Script from w3schools!-->
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+            myIndex = 1
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 7500); // Change image every 2 seconds
+    }
+</script>
+<!--<h4 style="text-align: center;">WORK IN PROGRESS!</h4>-->
 
 </body>
 <footer>
-    <small>Created and designed by Tyler Gabriel</small>
+    <small style="text-decoration: underline;">Created and designed by Tyler Gabriel</small>
 </footer>
 </html>
